@@ -1,13 +1,13 @@
 ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
-1.1.1,Account Policies,Length of password history maintained,accountpolicy,,,,,,,24,None,>=,Low
+1.1.1,Account Policies,Length of password history maintained,accountpolicy,,,,,,,24,20,<=,Low
 1.1.2,Account Policies,Maximum password age,accountpolicy,,,,,,,365,42,<=!0,Low
 1.1.3,Account Policies,Minimum password age,accountpolicy,,,,,,,1,0,>=,Low
 1.1.4,Account Policies,Minimum password length,accountpolicy,,,,,,,14,0,>=,Medium
 1.1.5,Account Policies,Password must meet complexity requirements,secedit,System Access\PasswordComplexity,,,,,,1,0,=,Medium
 1.1.6,Account Policies,Relax minimum password length limits,Registry,,HKLM:\System\CurrentControlSet\Control\SAM,RelaxMinimumPasswordLengthLimits,,,,1,0,=,Medium
-1.2.1,Account Policies,Account lockout duration,accountpolicy,,,,,,,15,30,>=,Low
+1.2.1,Account Policies,Account lockout duration,accountpolicy,,,,,,,15,14,<=,Low
 1.2.2,Account Policies,Account lockout threshold,accountpolicy,,,,,,,5,Never,<=!0,Low
-1.2.3,Account Policies,Reset account lockout counter,accountpolicy,,,,,,,15,30,>=,Low
+1.2.3,Account Policies,Reset account lockout counter,accountpolicy,,,,,,,15,14,<=,Low
 2.3.1.1,Security Options,Accounts: Administrator account status,localaccount,500,,,,,,FALSE,FALSE,=,Medium
 2.3.1.2,Security Options,Accounts: Block Microsoft accounts,Registry,,HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System,NoConnectedUser,,,,3,0,=,Low
 2.3.1.3,Security Options,Accounts: Guest account status,localaccount,501,,,,,,FALSE,FALSE,=,Medium
