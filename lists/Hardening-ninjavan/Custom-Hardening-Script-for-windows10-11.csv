@@ -1,6 +1,6 @@
 ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
 1.1.2,Account Policies,Maximum password age,accountpolicy,,,,,,,42,365,<=!0,Low
-1.1.5,Account Policies,Password must meet complexity requirements,secedit,System Access\PasswordComplexity,,,,,,1,0,=,Medium
+1.1.5,Account Policies,Password must meet complexity requirements,secedit,System Access\PasswordComplexity,,,,,,0,0,=,Medium
 1.2.1,Account Policies,Account lockout duration,accountpolicy,,,,,,,30,15,>=,Low
 1.2.2,Account Policies,Account lockout threshold,accountpolicy,,,,,,,Never,5,<=!0,Low
 1.2.3,Account Policies,Reset account lockout counter,accountpolicy,,,,,,,30,15,>=,Low
